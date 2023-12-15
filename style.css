@@ -1,0 +1,116 @@
+body {
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* need to complete header, image, paragraph sign up button, and spaces  */
+
+.header {
+    background-color: #1F2937;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 8px;
+    padding: 8px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    padding: 0 6px;
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #989a9b;
+
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header>p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* need to figure out the spacing */
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    padding: 32px;
+
+}
+
+.info {
+    max-width: 200px;
+}
+
+.container>img {
+    width: 100px;
+    height: 100px;
+}
+
+/* figure out spacing and edit name of author */
+.section.middle>p {
+    background-color: #87888a;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+
+
+}
+
+span {}
+
+/* figure out spacing and move sign up button */
+.section.bottom {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* button {
+    background-color: #3882F6;
+}
+
+#action {
+    background-color: #3882F6;
+} */
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
